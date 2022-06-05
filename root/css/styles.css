@@ -87,6 +87,7 @@ body {
 
 #background-image-section p {
     font-size: 19px;
+    margin: 12px;
 }
 
 #background-image-section div {
@@ -109,6 +110,144 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
+
+#titulo-productos-destacados {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#titulo-productos-destacados p {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88 px;
+    padding: 0px;
+    margin: 10px;
+}
+
+#titulo-productos-destacados ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 267px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenido-productos-destacados {
+    display: flex;
+    justify-content: space-between;
+    margin: 49px 95px 0px 49px
+}
+
+.tarjetas {
+    background-color: #FBFAF6;
+    height: 312px;
+    width: 265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.tarjetas img {
+    width: 265px;
+    height: 268.86px;
+}
+
+.titulo-tarjeta {
+    color: #3C2313;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.58px;
+}
+
+.precio-tarjeta {
+    color: #F0A83E;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.58px;
+}
+
+#contactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29.3px;
+}
+
+#contactanos form {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contactanos form input {
+    background-color: #3C2313;
+    font-size: 9px;
+    color: white;
+    text-align: left;
+    width: 340px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-weight: 400;
+    padding-left: 14.11px;
+}
+
+#contactanos form input::placeholder {
+    color: #FBFAF6;
+    font-weight: 400;
+    font-size: 9px;
+}
+
+#contactanos #botones-formulario-contacto {
+    display: flex;
+    margin-top: 41px;
+    justify-content: space-between;
+    width: 226px;
+}
+
+#boton-Resetear-formulario {
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #8A8787;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+#boton-Enviar-formulario {
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #F0A83E;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
 
 
 footer .banner {
