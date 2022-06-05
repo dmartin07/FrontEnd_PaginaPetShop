@@ -1,0 +1,116 @@
+body {
+    font-family: Roboto;
+}
+
+.banner {
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    font-size: 12px;
+    height: 20px;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+
+.banner p {
+    display: flex;
+    position: relative;
+    }
+
+.banner ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    width:90px;
+}
+
+.banner :any-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#top-nav-bar {
+    align-items: center;
+    background-color: #F0A83E;
+    color: #ffffff;
+    display: flex;
+    font-size: 13px;
+    height: 62px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+#top-nav-bar img {
+    align-self: center;
+    height: 23px;
+    width: 166.38;
+}
+
+#top-nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 340px;
+    }
+
+#top-nav-bar ul img {
+        height: 14px;
+    width: 15px;
+    }
+
+#background-image-section {
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    height: 409px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#background-image-section h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+#background-image-section p {
+    font-size: 19px;
+}
+
+#background-image-section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#background-image-section div button {
+    background-color: #F0A83E;
+    padding: 15px 23px;
+    color: white;
+    font-size: 19px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#background-image-section div :any-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+footer .banner {
+    text-align: center;
+}
