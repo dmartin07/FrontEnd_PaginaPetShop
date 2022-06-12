@@ -5,6 +5,7 @@ https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -60,9 +61,7 @@ https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1
                 <h1>¡Es un placer tenerte aquí!</h1>
                 <!--Sección superior imagen principal-->
                 <p>¡Comederos en descuento!</p>
-                <button>
-                    <a href="">COMEDEROS</a>    
-                </button>
+                <a href="">COMEDEROS</a>
             </div>
         </section>
         <section id="titulo-productos-destacados">
@@ -106,33 +105,51 @@ https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1
                 <input type="number" placeholder="Teléfono">
             </form>
             <section id="botones-formulario-contacto">
-                <button id="boton-Resetear-formulario">Resetear</button>
-                <button id="boton-Enviar-formulario">Enviar</button>
+                <a href="" id="boton-Resetear-formulario">Resetear</a>
+                <a href="" id="boton-Enviar-formulario">Enviar</a>
             </section>
         </section>
         <footer>
             <header>
                 <!-- Barra suscripción-->
-                <img src="./img/enviar-correo 1.png" alt="">
-                <h4>Suscríbete para más novedades</h4>
-                <form action="">
+                <div id="suscribete">
+                    <img src="./img/enviar-correo 1.png" alt="">
+                    <h4>Suscríbete para más novedades</h4>
+                </div>
+                <div id="formulario-suscripcion">
+                    <form action="">
                     <input type="text" placeholder="Ingresá tu correo electrónico">
-                    <button>Suscribirme</button>
-                </form>
+                    </form>
+                    <a href="">Suscribirme</a>
+                </div>
             </header>
-            <section>
+            <div id="datos-contacto">
                 <!-- Datos de contacto-->
-                <img src="./img/Icono dirección.png" alt="Icono dirección">
-                <h4>Localidad</h4>
-                <p>Calle - provincia</p>
-                <img src="./img/Icono teléfono.png" alt="Icono teléfono">
-                <h4>Teléfono</h4>
-                <p>Número de teléfono</p>
-                <img src="./img/Icono mail.png" alt="Icono mail">
-                <h4>Correo Electrónico</h4>
-                <p>Dirección de correo</p>
-                <img src="./img/Logo inferior.png" alt="Logo inferior">
-            </section>
+                <div id="contenedor-tarjetas-contacto">
+                    <div class="tarjeta-datos">
+                        <img src="./img/Icono dirección.png" alt="Icono dirección">
+                        <div class="texto-tarjeta-datos">
+                            <h4>Localidad</h4>
+                            <p>Calle - provincia</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta-datos">
+                        <img src="./img/Icono teléfono.png" alt="Icono teléfono">
+                        <div class="texto-tarjeta-datos">
+                            <h4>Teléfono</h4>
+                            <p>Número de teléfono</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta-datos">
+                        <img src="./img/Icono mail.png" alt="Icono mail">
+                        <div class="texto-tarjeta-datos">
+                            <h4>Correo Electrónico</h4>
+                            <p>Dirección de correo</p>
+                        </div>
+                    </div>
+                </div>
+                <img id="logo-inferior" src="./img/Logo inferior.png" alt="Logo inferior">
+            </div>
             <footer>
                 <!-- Barra inferior footer-->
                 <p class="banner">Todos los derechos reservados Front End</p>
