@@ -17,8 +17,8 @@ https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1
     </head>
 <body>
     <header>
-        <section class="banner">
-            <!--Banner-->
+        <div class="sup-banner">
+            <!--BANNER -->
             <p>
                 <a href="">Grandes ofertas en comederos</a> 
             </p>
@@ -28,9 +28,9 @@ https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1
                     <li>ARG$</li>
                 </ul>
             </nav>
-        </section>
-        <section  id="top-nav-bar">
-            <!--Barra de Navegacion-->
+        </div>
+        <div id="top-nav-bar">
+            <!--NAV BAR-->
             <img src="./img/Logo.png" alt="Logo">
             <nav>
                 <ul>
@@ -52,20 +52,20 @@ https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1
                     </li>
                 </ul>
             </nav>
-        </section>
+        </div>
     </header>
 
     <main>
-        <section id="background-image-section">
+        <section id="hero">
+            <!--HERO SECTION -->
             <div>
                 <h1>¡Es un placer tenerte aquí!</h1>
-                <!--Sección superior imagen principal-->
                 <p>¡Comederos en descuento!</p>
                 <a href="">COMEDEROS</a>
             </div>
         </section>
-        <section id="titulo-productos-destacados">
-            <!--Sección titulo productos destacados-->
+        <section id="main-title">
+            <!--MAIN TITLE-->
             <img src="./img/pawprint amarilla.png" alt="pawprint amarilla">
             <p>Productos Destacados<p>
             <nav>
@@ -78,101 +78,83 @@ https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1
                 </ul>
             </nav>
         </section>
-        <section id="contenido-productos-destacados">
-            <!--Sección contenido productos destacados-->
-            <section class="tarjetas">
+        <section id="main-content">
+            <!--MAIN CONTENT-->
+            <section class="cards">
                 <img src="./img/churrasquito.png" alt="Churrasquito">
-                <h6 class="titulo-tarjeta">Juguete Churrasquito</h6>
-                <span class="precio-tarjeta">$150</span>
+                <h6 class="card-title">Juguete Churrasquito</h6>
+                <span class="card-price">$150</span>
             </section>
-            <section class="tarjetas">
+            <section class="cards">
                 <img src="./img/comedero.png" alt="comedero">
-                <h6 class="titulo-tarjeta">Comedero para perro</h6>
-                <span class="precio-tarjeta">$250</span>
+                <h6 class="card-title">Comedero para perro</h6>
+                <span class="card-price">$250</span>
             </section>
-            <section class="tarjetas">
+            <section class="cards">
                 <img src="./img/Huesito.png" alt="Huesito">
-                <h6 class="titulo-tarjeta">Juguete Huesito</h6>
-                <span class="precio-tarjeta">$650</span>
+                <h6 class="card-title">Juguete Huesito</h6>
+                <span class="card-price">$650</span>
             </section>
         </section>
-        <section id="contactanos">
-            <!--Sección Formulario-->
+        <section id="contact">
+            <!--FORM -->
             <h3>Contáctanos</h3>
             <form action="">
                 <input type="text" placeholder="Nombre y Apellido">
                 <input type="text" placeholder="Ingresá tu correo electrónico">
                 <input type="number" placeholder="Teléfono">
             </form>
-            <section id="botones-formulario-contacto">
-                <a href="" id="boton-Resetear-formulario">Resetear</a>
-                <a href="" id="boton-Enviar-formulario">Enviar</a>
-            </section>
-        </section>
-        <footer>
-            <header>
-                <!-- Barra suscripción-->
-                <div id="suscribete">
-                    <img src="./img/enviar-correo 1.png" alt="">
-                    <h4>Suscríbete para más novedades</h4>
-                </div>
-                <div id="formulario-suscripcion">
-                    <form action="">
-                    <input type="text" placeholder="Ingresá tu correo electrónico">
-                    </form>
-                    <a href="">Suscribirme</a>
-                </div>
-            </header>
-            <div id="datos-contacto">
-                <!-- Datos de contacto-->
-                <div id="contenedor-tarjetas-contacto">
-                    <div class="tarjeta-datos">
-                        <img src="./img/Icono dirección.png" alt="Icono dirección">
-                        <div class="texto-tarjeta-datos">
-                            <h4>Localidad</h4>
-                            <p>Calle - provincia</p>
-                        </div>
-                    </div>
-                    <div class="tarjeta-datos">
-                        <img src="./img/Icono teléfono.png" alt="Icono teléfono">
-                        <div class="texto-tarjeta-datos">
-                            <h4>Teléfono</h4>
-                            <p>Número de teléfono</p>
-                        </div>
-                    </div>
-                    <div class="tarjeta-datos">
-                        <img src="./img/Icono mail.png" alt="Icono mail">
-                        <div class="texto-tarjeta-datos">
-                            <h4>Correo Electrónico</h4>
-                            <p>Dirección de correo</p>
-                        </div>
-                    </div>
-                </div>
-                <img id="logo-inferior" src="./img/Logo inferior.png" alt="Logo inferior">
+            <div id="contact-buttons">
+                <a href="" id="contact-reset-button">Resetear</a>
+                <a href="" id="contact-send-button">Enviar</a>
             </div>
-            <footer>
-                <!-- Barra inferior footer-->
-                <p class="banner">Todos los derechos reservados Front End</p>
-            </footer>
-        </footer>
+        </section>
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer>
+        <header>
+            <!-- SUSCRIPTION BAR-->
+            <div id="suscription-box">
+                <img src="./img/enviar-correo 1.png" alt="">
+                <h4>Suscríbete para más novedades</h4>
+            </div>
+            <div id="suscription-form">
+                <form action="">
+                <input type="text" placeholder="Ingresá tu correo electrónico">
+                </form>
+                <a href="">Suscribirme</a>
+            </div>
+        </header>
+        <div id="contact">
+            <!--CONTACT US-->
+            <div id="contact-cards-box">
+                <div class="contact-card">
+                    <img src="./img/Icono dirección.png" alt="Icono dirección">
+                    <div class="contact-card-text">
+                        <h4>Localidad</h4>
+                        <p>Calle - provincia</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <img src="./img/Icono teléfono.png" alt="Icono teléfono">
+                    <div class="contact-card-text">
+                        <h4>Teléfono</h4>
+                        <p>Número de teléfono</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <img src="./img/Icono mail.png" alt="Icono mail">
+                    <div class="contact-card-text">
+                        <h4>Correo Electrónico</h4>
+                        <p>Dirección de correo</p>
+                    </div>
+                </div>
+            </div>
+            <img id="inferior-logo" src="./img/Logo inferior.png" alt="Logo inferior">
+        </div>
+        <footer>
+            <!--BANNER -->
+            <p class="bot-banner">Todos los derechos reservados Front End</p>
+        </footer>
+    </footer>
 </body>
 </html>

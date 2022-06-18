@@ -1,0 +1,374 @@
+body {
+    font-family: Roboto;
+}
+
+.banner {
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    font-size: 12px;
+    height: 20px;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+
+.banner p {
+    display: flex;
+    position: relative;
+    }
+
+.banner ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    width:90px;
+}
+
+.banner :any-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#top-nav-bar {
+    align-items: center;
+    background-color: #F0A83E;
+    color: #ffffff;
+    display: flex;
+    font-size: 13px;
+    height: 62px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+#top-nav-bar img {
+    align-self: center;
+    height: 23px;
+    width: 166.38;
+}
+
+#top-nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 340px;
+    }
+
+#top-nav-bar ul img {
+        height: 14px;
+    width: 15px;
+    }
+
+#background-image-section {
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    height: 409px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#background-image-section h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+#background-image-section p {
+    font-size: 19px;
+    margin: 12px;
+}
+
+#background-image-section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#background-image-section a {
+    background-color: #F0A83E;
+    padding: 15px 23px;
+    color: white;
+    font-size: 19px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#background-image-section div :any-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#titulo-productos-destacados {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#titulo-productos-destacados p {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88 px;
+    padding: 0px;
+    margin: 10px;
+}
+
+#titulo-productos-destacados ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 267px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenido-productos-destacados {
+    display: flex;
+    justify-content: space-between;
+    margin: 49px 95px 0px 49px
+}
+
+.tarjetas {
+    background-color: #FBFAF6;
+    height: 312px;
+    width: 265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.tarjetas img {
+    width: 265px;
+    height: 268.86px;
+}
+
+.titulo-tarjeta {
+    color: #3C2313;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.58px;
+}
+
+.precio-tarjeta {
+    color: #F0A83E;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.58px;
+}
+
+#contactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29.3px;
+}
+
+#contactanos form {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contactanos form input {
+    background-color: #3C2313;
+    font-size: 9px;
+    color: white;
+    text-align: left;
+    width: 340px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-weight: 400;
+    padding-left: 14.11px;
+    border: 0px;
+}
+
+#contactanos form input::placeholder {
+    color: #FBFAF6;
+    font-weight: 400;
+    font-size: 9px;
+}
+
+#contactanos #botones-formulario-contacto {
+    display: flex;
+    margin-top: 41px;
+    justify-content: space-between;
+    width: 226px;
+}
+
+#boton-Resetear-formulario {
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #8A8787;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton-Enviar-formulario {
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #F0A83E;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer header {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin-top: 75px;
+}
+
+#suscribete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+footer header img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+footer header div h4 {
+font-size: 20px;
+font-weight: 700;
+color: white;
+}
+
+#formulario-suscripcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 47px;
+}
+
+#formulario-suscripcion input {
+height: 40px;
+width: 271px;
+border-radius: 15px;
+border: 0px;
+
+}
+
+#formulario-suscripcion input::placeholder {
+    font-size: 9px;
+    color: #A0A0A0;
+}
+
+#formulario-suscripcion a {
+    height: 34px;
+    width: 70px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #3C2313;
+    font-size: 9px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+#datos-contacto {
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 284px;
+}
+
+#contenedor-tarjetas-contacto {
+    height: 284px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content:space-between;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 70px;
+}
+
+.tarjeta-datos {
+    display: flex;
+}
+
+.texto-tarjeta-datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 25px;
+}
+
+.texto-tarjeta-datos h4 {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    line-height: 23.44px;
+    margin: 0px;
+}
+
+.texto-tarjeta-datos p {
+    font-size: 10px;
+    color: #8A8787;
+    font-weight: 700;
+    line-height: 11.72px;
+    margin: 0px
+}
+
+#logo-inferior{
+    margin-right: 70px;
+    height: 23px;
+    width: 166px;
+}
+
+footer .banner {
+    margin: 0px;
+    padding: 0px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
