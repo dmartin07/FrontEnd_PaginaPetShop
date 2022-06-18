@@ -2,6 +2,8 @@ body {
     font-family: Roboto;
 }
 
+/*Comentario se escribe asi*/
+
 .banner {
     align-items: center;
     background-color: #000000;
@@ -371,4 +373,5 @@ footer .banner {
     height: 20px;
     justify-content: center;
     align-items: center;
+
 }
