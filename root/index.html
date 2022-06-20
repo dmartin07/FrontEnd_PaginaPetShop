@@ -6,6 +6,7 @@ https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1
 <html lang="en">
 <head>
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,6 +53,7 @@ https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1
                     </li>
                 </ul>
             </nav>
+            <i class="fas fa-bars"></i>
         </div>
     </header>
 
@@ -99,15 +101,15 @@ https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1
         <section id="contact">
             <!--FORM -->
             <h3>Contáctanos</h3>
-            <form action="">
-                <input type="text" placeholder="Nombre y Apellido">
-                <input type="text" placeholder="Ingresá tu correo electrónico">
-                <input type="number" placeholder="Teléfono">
+            <form action="" method="post">
+                <input type="text" name="Nombre-y-apellido" placeholder="Nombre y Apellido" id="Nombre-y-apellido">
+                <input type="text" name="email" placeholder="Ingresá tu correo electrónico">
+                <input type="tel" name="tel" placeholder="Teléfono">
+                <div id="contact-buttons">
+                    <button id="contact-reset-button" type="reset">Resetear</button>
+                    <button id="contact-send-button" type="submit">Enviar</button>
+                </div>
             </form>
-            <div id="contact-buttons">
-                <a href="" id="contact-reset-button">Resetear</a>
-                <a href="" id="contact-send-button">Enviar</a>
-            </div>
         </section>
     </main>
     <footer>
@@ -118,13 +120,13 @@ https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1
                 <h4>Suscríbete para más novedades</h4>
             </div>
             <div id="suscription-form">
-                <form action="">
-                <input type="text" placeholder="Ingresá tu correo electrónico">
+                <form action="" method="post">
+                <input type="email" name="email" placeholder="Ingresá tu correo electrónico">
+                <button id="suscription-button" type="submit">Suscribirme</button>
                 </form>
-                <a href="">Suscribirme</a>
             </div>
         </header>
-        <div id="contact">
+        <div id="contact-info">
             <!--CONTACT US-->
             <div id="contact-cards-box">
                 <div class="contact-card">
@@ -156,5 +158,6 @@ https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1
             <p class="bot-banner">Todos los derechos reservados Front End</p>
         </footer>
     </footer>
+
 </body>
 </html>
